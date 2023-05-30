@@ -1,4 +1,10 @@
-# 1.0.0 (2023-05-30)
+## [1.0.1](https://github.com/spruce-hub/create-cli/compare/v1.0.0...v1.0.1) (2023-05-30)
+
+### 🐛Bug Fixes
+
+- **cli:** 使用任何包管理器都是允许的 ([cd8a701](https://github.com/spruce-hub/create-cli/commit/cd8a70102fa1ec5bc927eb12650fdec8a11754e6))
+
+# [1.0.0](https://github.com/spruce-hub/create-cli/compare/9fe6da7ee24fcbc0c2ee16b853a24b7fe4bcb000...v1.0.0) (2023-05-30)
 
 ### ✨Features
 
