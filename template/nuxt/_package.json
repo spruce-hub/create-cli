@@ -1,0 +1,52 @@
+{
+  "name": "<%= name %>",
+  "version": "1.0.0",
+  "private": true,
+  "description": "<%= description %>",
+  "scripts": {
+    "dev": "nuxi dev",
+    "build:test": "cross-env NUXT_ENV_MODE=test nuxi build",
+    "build:prod": "cross-env NUXT_ENV_MODE=production nuxi build",
+    "generate": "nuxi generate",
+    "preview": "nuxi preview",
+    "postinstall": "nuxi prepare && npx only-allow pnpm",
+    "prepare": "husky install",
+    "lint": "eslint --ext .js,.vue . --fix"
+  },
+  "keywords": ["<%= name %>"],
+  "author": "Spruce FE",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "dependencies": {
+    "@spruce-hub/nuxt-fetch": "^1.1.0",
+    "@spruce-hub/nuxt-route": "^1.0.1",
+    "node-fetch-native": "^1.1.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.3",
+    "@commitlint/config-conventional": "^17.6.3",
+    "@noahyu/eslint-config-vue": "^1.1.0",
+    "@splidejs/splide-extension-auto-scroll": "^0.5.3",
+    "@splidejs/vue-splide": "^0.6.12",
+    "@types/node": "^20.2.5",
+    "commitizen": "^4.3.0",
+    "cross-env": "^7.0.3",
+    "cz-git": "^1.6.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "nuxt": "^3.5.2",
+    "sass": "^1.62.1",
+    "typescript": "^5.0.4",
+    "vue": "^3.3.4"
+  },
+  "lint-staged": {
+    "*.{ts,js,vue}": "eslint --fix"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-git"
+    }
+  }
+}

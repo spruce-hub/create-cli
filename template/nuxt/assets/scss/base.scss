@@ -1,0 +1,37 @@
+@use './normalize.scss';
+@use './transition/fade.scss';
+@use './action/hover.scss';
+@use './action/is.scss';
+
+:root {
+  --ys-primary: #3165f5;
+  --ys-primary-light: #0bc39d;
+  --ys-primary-dark: #142959;
+  --ys-text-primary: var(--ys-primary);
+  --ys-text-primary-dark: var(--ys-primary-dark);
+  --ys-text-gray: #5b698b;
+  --ys-text-gray-light: #8c96a5;
+  --ys-text-gray-2: #c9cdd4;
+  --ys-text-gray-3: #86909c;
+  --ys-text-gray-4: #4e5969;
+  --ys-text-gray-5: #1d2129;
+  --ys-border-gray: var(--ys-text-gray);
+
+  --ys-line-height: 1.5715;
+  --ys-font-size: 14px;
+  --ys-font-weight: 400;
+  --ys-font-sans-serif: Helvetica, Tahoma, Arial, 'PingFang SC', '苹方', 'Microsoft YaHei',
+    '微软雅黑', SimSun, '宋体', Heiti, '黑体', sans-serif;
+  --ys-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New',
+    monospace;
+  --ys-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  --ys-bg-shadow: 0 1px 0 1px rgba(0, 0, 0, 0.01), 0 1px 5px rgb(0 0 0/12%);
+}
+
+#__layout {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  position: relative;
+  background: var(--ys-background-light);
+}
