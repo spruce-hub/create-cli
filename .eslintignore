@@ -1,3 +1,4 @@
 template
-changelog.config.js
+changelog.config.cjs
+commitlint.config.cjs
 rollup.config.js

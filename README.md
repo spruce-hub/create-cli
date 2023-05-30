@@ -1,8 +1,18 @@
 # create-cli
 
-> 项目脚手架
+> Helps you quickly create out-of-the-box projects
 
-各类项目的最佳实践
+## Usage
+
+```bash
+npm install @spruce-hub/create-cli -g
+```
+
+## Quick start
+
+```bash
+yscli create <app-name>
+```
 
 ## License
 

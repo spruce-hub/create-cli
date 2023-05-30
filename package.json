@@ -1,7 +1,7 @@
 {
   "name": "@spruce-hub/create-cli",
   "version": "0.0.0",
-  "description": "飞讯云杉前端脚手架",
+  "description": "Command line interface (CLI) for quick project creation",
   "type": "module",
   "main": "./dist/bin/cli.js",
   "files": [
@@ -14,7 +14,7 @@
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "build": "rollup -c -w",
-    "changelog": "conventional-changelog -n './changelog.config.js' -i CHANGELOG.md -s -r 0' && pnpm prettier",
+    "changelog": "conventional-changelog -n './changelog.config.cjs' -i CHANGELOG.md -s -r 0 && pnpm prettier",
     "prettier": "prettier --config .prettierrc --write ./**/*.md",
     "lint": "eslint --ext .ts . --fix",
     "vitest": "vitest",
@@ -23,7 +23,6 @@
     "prepare": "husky install"
   },
   "keywords": [
-    "飞讯云杉前端",
     "Spruce Hub",
     "CLI"
   ],
