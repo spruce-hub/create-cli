@@ -10,7 +10,6 @@ type Package = {
   }
   dependencies?: Record<string, string>
   devDependencies?: Record<string, string>
-  [key: string]: any
 }
 
 export const getPkg = (path: string, baseUrl: string) => {
