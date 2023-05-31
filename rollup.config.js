@@ -13,6 +13,7 @@ export default {
   input: './bin/cli.ts',
   plugins: [typescript({ tsconfig: './tsconfig.json' }), nodeResolve(), commonjs()],
   output: {
+    banner: '#!/usr/bin/env node',
     format: 'esm',
     dir: './dist',
     preserveModules: true,
