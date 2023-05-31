@@ -1,3 +1,9 @@
+## [1.0.2](https://github.com/spruce-hub/create-cli/compare/v1.0.1...v1.0.2) (2023-05-31)
+
+### 🐛Bug Fixes
+
+- **cli:** 应当指定使用 node.js 作为解释器 ([55bc5ee](https://github.com/spruce-hub/create-cli/commit/55bc5ee4ed25c103bbd36e8a6f04549a67cce209))
+
 ## [1.0.1](https://github.com/spruce-hub/create-cli/compare/v1.0.0...v1.0.1) (2023-05-30)
 
 ### 🐛Bug Fixes
