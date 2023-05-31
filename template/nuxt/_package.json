@@ -20,8 +20,8 @@
     "pnpm": ">=8.0.0"
   },
   "dependencies": {
-    "@spruce-hub/nuxt-fetch": "^1.1.0",
-    "@spruce-hub/nuxt-route": "^1.0.1",
+    "@spruce-hub/nuxt-fetch": "^1.1.1",
+    "@spruce-hub/nuxt-route": "^1.1.1",
     "node-fetch-native": "^1.1.1"
   },
   "devDependencies": {
