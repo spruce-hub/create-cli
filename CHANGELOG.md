@@ -1,3 +1,9 @@
+## [1.0.3](https://github.com/spruce-hub/create-cli/compare/v1.0.2...v1.0.3) (2023-05-31)
+
+### 🐛Bug Fixes
+
+- **template:** update deps ([342a19d](https://github.com/spruce-hub/create-cli/commit/342a19d5d37ff7e84ecac7f141702096bd2f429a))
+
 ## [1.0.2](https://github.com/spruce-hub/create-cli/compare/v1.0.1...v1.0.2) (2023-05-31)
 
 ### 🐛Bug Fixes
