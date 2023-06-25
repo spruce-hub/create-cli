@@ -1,3 +1,13 @@
+# [1.1.0](https://github.com/spruce-hub/create-cli/compare/v1.0.3...v1.1.0) (2023-06-25)
+
+### ✨Features
+
+- **cli:** 新增可选依赖 ([2c56810](https://github.com/spruce-hub/create-cli/commit/2c56810a3d98f0c459700c949e2ac4059f96e22a))
+
+### 🐛Bug Fixes
+
+- **template:** 更新 nuxt 模板 ([4fb50e9](https://github.com/spruce-hub/create-cli/commit/4fb50e9e63fd4bb08c8622aafbd4c3eece06acc2))
+
 ## [1.0.3](https://github.com/spruce-hub/create-cli/compare/v1.0.2...v1.0.3) (2023-05-31)
 
 ### 🐛Bug Fixes
