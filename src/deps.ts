@@ -1,11 +1,25 @@
-// type Deps = Array<Record<string, string | boolean>>
-
 export const deps = [
+  {
+    name: '@spruce-hub/eui',
+    value: {
+      name: '@spruce-hub/eui',
+      version: '1.0.0-alpha.5',
+      dev: false,
+    },
+  },
+  {
+    name: '@spruce-hub/icons',
+    value: {
+      name: '@spruce-hub/icons',
+      version: '1.0.0-alpha.5',
+      dev: false,
+    },
+  },
   {
     name: 'element-plus',
     value: {
       name: 'element-plus',
-      version: '^2.2.15',
+      version: '^2.3.7',
       dev: false,
     },
   },
@@ -21,7 +35,7 @@ export const deps = [
     name: 'naive-ui',
     value: {
       name: 'naive-ui',
-      version: '^2.34.3',
+      version: '^2.34.4',
       dev: false,
     },
   },
@@ -29,7 +43,7 @@ export const deps = [
     name: 'sass',
     value: {
       name: 'sass',
-      version: '^1.54.8',
+      version: '^1.63.6',
       dev: true,
     },
   },
