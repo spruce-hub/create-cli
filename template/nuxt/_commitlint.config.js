@@ -92,8 +92,24 @@ module.exports = {
     allowEmptyScopes: true,
     scopes: [],
     scopeOverrides: {
-      feat: [{ name: 'cli' }, { name: 'template' }],
-      fix: [{ name: 'cli' }, { name: 'template' }],
+      feat: [
+        { name: 'component' },
+        { name: 'composable' },
+        { name: 'layout' },
+        { name: 'middleware' },
+        { name: 'page' },
+        { name: 'plugin' },
+        { name: 'util' },
+      ],
+      fix: [
+        { name: 'component' },
+        { name: 'composable' },
+        { name: 'layout' },
+        { name: 'middleware' },
+        { name: 'page' },
+        { name: 'plugin' },
+        { name: 'util' },
+      ],
     },
 
     customIssuePrefixAlign: 'top',

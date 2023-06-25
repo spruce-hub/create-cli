@@ -22,23 +22,23 @@
   "dependencies": {
     "@spruce-hub/nuxt-fetch": "^1.1.1",
     "@spruce-hub/nuxt-route": "^1.1.1",
-    "node-fetch-native": "^1.1.1"
+    "node-fetch-native": "^1.2.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^17.6.3",
-    "@commitlint/config-conventional": "^17.6.3",
-    "@noahyu/eslint-config-vue": "^1.1.0",
+    "@commitlint/cli": "^17.6.6",
+    "@commitlint/config-conventional": "^17.6.6",
+    "@noahyu/eslint-config-vue": "^1.2.2",
     "@splidejs/splide-extension-auto-scroll": "^0.5.3",
     "@splidejs/vue-splide": "^0.6.12",
-    "@types/node": "^20.2.5",
+    "@types/node": "^20.3.1",
     "commitizen": "^4.3.0",
     "cross-env": "^7.0.3",
     "cz-git": "^1.6.1",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
-    "nuxt": "^3.5.2",
-    "sass": "^1.62.1",
-    "typescript": "^5.0.4",
+    "nuxt": "^3.6.0",
+    "sass": "^1.63.6",
+    "typescript": "^5.1.3",
     "vue": "^3.3.4"
   },
   "lint-staged": {
