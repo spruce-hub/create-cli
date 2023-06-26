@@ -59,12 +59,6 @@ export default defineNuxtConfig({
       authorization: 'access_token',
     },
   },
-  components: [
-    {
-      path: '~/components/',
-      pathPrefix: false,
-    },
-  ],
   plugins: [],
   devServer: {
     port: 3000,
