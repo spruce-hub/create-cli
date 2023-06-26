@@ -1,3 +1,9 @@
+## [1.1.1](https://github.com/spruce-hub/create-cli/compare/v1.1.0...v1.1.1) (2023-06-26)
+
+### 🐛Bug Fixes
+
+- **template:** 更新 nuxt 模板，nuxt 根据路径自动导入组件 ([4fd0483](https://github.com/spruce-hub/create-cli/commit/4fd048316db647531a05a60b83c51633e17597b9))
+
 # [1.1.0](https://github.com/spruce-hub/create-cli/compare/v1.0.3...v1.1.0) (2023-06-25)
 
 ### ✨Features
