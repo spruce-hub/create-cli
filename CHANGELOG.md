@@ -1,11 +1,17 @@
-## [1.1.2](https://github.com/spruce-hub/create-cli/compare/v1.1.1...v1.1.2) (2023-07-03)
+## [1.1.3](https://github.com/spruce-hub/create-cli/compare/v1.1.1...v1.1.3) (2023-07-19)
 
 ### ✨Features
 
+- **template:** update template ([555fc0f](https://github.com/spruce-hub/create-cli/commit/555fc0fea7a4bec65077fabf154ad60b04a39677))
 - **template:** update `@spruce-hub/nuxt-fetch` `@spruce-hub/nuxt-route` ([09d1781](https://github.com/spruce-hub/create-cli/commit/09d17819f85ae76fc69eed77dc0451c544473f1e))
+
+### 🐛Bug Fixes
+
+- **template:** update template ([8c6d279](https://github.com/spruce-hub/create-cli/commit/8c6d2799be6b24f2b2e227faf16ee609a2fde0fc))
 
 ### 🛠️Chore
 
+- update deps ([2d13c5f](https://github.com/spruce-hub/create-cli/commit/2d13c5f01aeea19d2deb020d6d1eb5686afcce6c))
 - update deps ([f0f236d](https://github.com/spruce-hub/create-cli/commit/f0f236d82a2b9fba4ec8143ae84a63ab392ffae2))
 
 ## [1.1.1](https://github.com/spruce-hub/create-cli/compare/v1.1.0...v1.1.1) (2023-06-26)
