@@ -1,0 +1,65 @@
+/** 通用样式 */
+
+@mixin scrollbar() {
+  &::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background-color: var(--el-color-info-light-5);
+  }
+  &::-webkit-scrollbar-track-piece {
+    border-radius: 6px;
+  }
+}
+
+@mixin btnLink($type, $m: '') {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 7px 60px;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: all 0.2s;
+
+  @if $type == 'default' and $m == '' {
+    color: var(--ys-text);
+    background-color: var(--ys-gray-500);
+    border: 1px solid var(--ys-gray-500);
+
+    &:hover {
+      color: var(--el-color-primary);
+      background-color: var(--el-color-primary-light-9);
+      border-color: var(--el-color-primary);
+    }
+  } @else if $type == 'primary' and $m == '' {
+    color: var(--ys-white);
+    background-color: var(--el-color-primary);
+    border: 1px solid var(--el-color-primary);
+
+    &:hover {
+      background-color: var(--el-color-primary-light-3);
+      border-color: var(--el-color-primary-light-3);
+    }
+  } @else if $type == 'info' and $m == '' {
+    color: var(--ys-white);
+    background-color: var(--ys-gray);
+    border: 1px solid var(--ys-gray);
+
+    &:hover {
+      background-color: var(--ys-gray-100);
+      border-color: var(--ys-gray-100);
+    }
+  } @else if $type == 'default' and $m == 'plain' {
+    color: var(--ys-white);
+    background-color: transparent;
+    border: 2px solid var(--ys-gray-500);
+
+    &:hover {
+      color: var(--el-color-primary);
+      border-color: var(--el-color-primary);
+    }
+  }
+}

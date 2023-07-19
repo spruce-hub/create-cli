@@ -1,0 +1,12 @@
+:root {
+  // spruce-ui
+  --ys-primary: var(--el-color-primary);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  @include common.scrollbar;
+}

@@ -29,8 +29,14 @@ export default defineNuxtConfig({
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     },
   },
-  css: ['~/assets/scss/base.scss'],
+  css: ['@spruce-hub/chalk/dist/index.css', '~/assets/scss/chalk.scss'],
   modules: [
+    [
+      '@element-plus/nuxt',
+      {
+        importStyle: 'scss',
+      },
+    ],
     [
       '@spruce-hub/nuxt-route',
       {
@@ -49,17 +55,22 @@ export default defineNuxtConfig({
         cookieName: 'access_token',
       },
     ],
-    <%_ if(module.filter((depsObj) => depsObj && depsObj.name && depsObj.name === '@element-plus/nuxt').length > 0) { _%>
-    [
-      '@element-plus/nuxt',
-      {
-        importStyle: 'scss',
-      }
-    ]
-    <%_ } _%>
   ],
   plugins: [],
   devServer: {
     port: 3000,
+  },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: `
+            @use "@spruce-hub/chalk/scss/mixin.scss" as chalk; 
+            @use "@/assets/scss/element-plus.scss" as element;
+            @use "@/assets/scss/common.scss" as common;
+            `,
+        },
+      },
+    },
   },
 })
